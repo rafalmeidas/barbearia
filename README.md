@@ -1,11 +1,9 @@
 # barbearia
-<code>
-    TAGS
-    <h1>Título 1<h1> 
-    <p>paragráfo</p> 
-    <strong>texto em negrito</strong> 
-    <em>texto em italico</em> 
-</code>
+TAGS
+<h1>Título 1<h1> 
+<p>paragráfo</p> 
+<strong>texto em negrito</strong> 
+<em>texto em italico</em> 
 A definir a estrutura básica do HTML
 Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
 A tag <html>, que marca o conteúdo a ser renderizado no navegador
