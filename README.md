@@ -1,11 +1,11 @@
 # barbearia
 <code>
-TAGS
-<h1><h1> Título 1
-<p></p> paragráfo
-<strong></strong> texto em negrito
-<em></em> texto em italico
-
+    TAGS
+    <h1>Título 1<h1> 
+    <p>paragráfo</p> 
+    <strong>texto em negrito</strong> 
+    <em>texto em italico</em> 
+</code>
 A definir a estrutura básica do HTML
 Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
 A tag <html>, que marca o conteúdo a ser renderizado no navegador
@@ -14,4 +14,3 @@ Como passar as informações do encoding da nossa página para o navegador, atra
 Como definir o título de uma página, através da tag <title>
 Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
 Como separar o conteúdo da página, utilizando a tag <body>
-</code>
