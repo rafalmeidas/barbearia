@@ -1,7 +1,17 @@
 # barbearia
-
+<code>
 TAGS
-<h1> Título 1
-<p> paragráfo
-<strong> texto em negrito
-<em> texto em italico
+<h1><h1> Título 1
+<p></p> paragráfo
+<strong></strong> texto em negrito
+<em></em> texto em italico
+
+A definir a estrutura básica do HTML
+Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+A tag <html>, que marca o conteúdo a ser renderizado no navegador
+Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+Como passar as informações do encoding da nossa página para o navegador, através da tag <meta> e da propriedade charset
+Como definir o título de uma página, através da tag <title>
+Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
+Como separar o conteúdo da página, utilizando a tag <body>
+</code>
