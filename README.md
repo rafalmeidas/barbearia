@@ -4,6 +4,7 @@ TAGS
 <p>paragráfo</p> 
 <strong>texto em negrito</strong> 
 <em>texto em italico</em> 
+<img></img> Adionar imagem à página
 A definir a estrutura básica do HTML
 Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
 A tag <html>, que marca o conteúdo a ser renderizado no navegador
