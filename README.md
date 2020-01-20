@@ -22,3 +22,9 @@ O elemento pode ser deslocado com o posicionamento relative, com o seu ponto ini
 Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página. O mesmo fica a frente da tag onde ele esta como se ele realmente não fizesse parte mais daquela TAG
 
 com os displays block e inline-block os itens sempre se alinham pela linha de baixo, para mudar o alinhamento por exemplo pelo topo podemos usar a seguinte configuração vertical-align: top;
+
+A força dos marcadores no CSS(Hierarquia do mais fraco para o mais forte)
+* tag
+* class
+* id
+* css direto no html
