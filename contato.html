@@ -27,37 +27,60 @@
         <main>
             <form action="">
                 <label for="nome">Nome completo</label>
-                <input type="text" id="nome" class="input-padrao">
+                <input type="text" id="nome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+                <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
                     
                     <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
                     
-                    <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="whatsapp">WhatsApp</label>              
-                </div>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" checked>WhatsApp</label>              
+                </fieldset>
 
-                <div>
-                    <p>Qual horário prefere ser atendido?</p>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
                     <select name="" id="">
                         <option value="manha">Manhã</option>
                         <option value="tarde">Tarde</option>
                         <option value="noite">Noite</option>
                     </select>
-                </div>
-                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
-                <input type="submit" value="Enviar formulário">
+                <input type="submit" value="Enviar formulário" class="enviar">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
             </form>
         </main>
 
