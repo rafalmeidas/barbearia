@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBB;
     padding: 20px 0;
@@ -158,6 +162,7 @@ th, td {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .principal p {
@@ -172,6 +177,49 @@ th, td {
     font-style: italic;
 }
 
-.imagembeneficios {
-    width: 50%;
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.tens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
